@@ -15,6 +15,8 @@
 		240A775E2581E42700DB60CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240A775C2581E42700DB60CF /* LaunchScreen.storyboard */; };
 		240A77692581E42700DB60CF /* collectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A77682581E42700DB60CF /* collectionTests.swift */; };
 		240A77742581E42700DB60CF /* collectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A77732581E42700DB60CF /* collectionUITests.swift */; };
+		240A77852581E48400DB60CF /* TripCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A77842581E48400DB60CF /* TripCollectionViewController.swift */; };
+		240A778A2581E49900DB60CF /* TripCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A77892581E49900DB60CF /* TripCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		240A776F2581E42700DB60CF /* collectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240A77732581E42700DB60CF /* collectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionUITests.swift; sourceTree = "<group>"; };
 		240A77752581E42700DB60CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240A77842581E48400DB60CF /* TripCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCollectionViewController.swift; sourceTree = "<group>"; };
+		240A77892581E49900DB60CF /* TripCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				240A77512581E42400DB60CF /* AppDelegate.swift */,
 				240A77532581E42400DB60CF /* SceneDelegate.swift */,
 				240A77552581E42400DB60CF /* ViewController.swift */,
+				240A77842581E48400DB60CF /* TripCollectionViewController.swift */,
+				240A77892581E49900DB60CF /* TripCollectionViewCell.swift */,
 				240A77572581E42400DB60CF /* Main.storyboard */,
 				240A775A2581E42700DB60CF /* Assets.xcassets */,
 				240A775C2581E42700DB60CF /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 				240A77562581E42400DB60CF /* ViewController.swift in Sources */,
 				240A77522581E42400DB60CF /* AppDelegate.swift in Sources */,
 				240A77542581E42400DB60CF /* SceneDelegate.swift in Sources */,
+				240A778A2581E49900DB60CF /* TripCollectionViewCell.swift in Sources */,
+				240A77852581E48400DB60CF /* TripCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
